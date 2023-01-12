@@ -31,3 +31,13 @@ Sample Input Puzzle Board: [[-,-,-,-,-],[-,-,#,-,-],[-,-,-,-,-],[#,-,#,#,-],[-#,
 
 ### Example 3: (a,b): (1,1); (x,y) : (5,1)
 -Output: None
+
+## Solution
+- For this problem I’m going to use a breadth first approach to find the solution. Starting from the given Source
+variable, it will go up,down, left, and right and record the results will be saved in a
+dictionary only if it doesn’t have a barrier ‘#’. We will use heaps in order to
+accomplish this. When we reach our desired Destination coordinates, we will
+return the total steps/cells it took to reach the goal. If we reach the end of the
+board (the end edges) then there is no solution and None is returned.
+
+- Time complexity: Used Breadth First approach so O(V+E)
