@@ -1,6 +1,10 @@
 # Graph-Traversal-Puzzle
 Apply Graph traversal to solve a problem (Portfolio Project Problem)
 
+## Run Program
+- In the driver code, change Source and Destination variables to desire coordinates
+- Run using command "python3 puzzle.py"
+
 ## Problem Description
 You are given a 2-D puzzle of size MxN, that has N rows and M column (N>=3 ; M >= 3; M 
 and N can be different). Each cell in the puzzle is either empty or has a barrier. An empty cell 
