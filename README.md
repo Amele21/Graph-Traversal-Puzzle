@@ -19,13 +19,15 @@ source to destination return None.
 Sample Input Puzzle Board: [[-,-,-,-,-],[-,-,#,-,-],[-,-,-,-,-],[#,-,#,#,-],[-#,-,-,-]]
 
 
-Example 1: (a,b) : (1,3) ; (x,y): (3,3)
-Output: 3
-On possible direction to travel: LDDR
-(1,3) (1,2)  (2,2)  (3,2)(3,3)
-Example 2: (a,b): (1,1) ; (x,y): (5,5)
-Output: 7
-One possible direction to travel: DDRRRRDD
-(1,1) (2,1)(3,1)(3,2)(3,3)(3,4)(3,5)(4,5)(5,5)
-Example 3: (a,b): (1,1); (x,y) : (5,1)
-Output: None
+### Example 1: (a,b) : (1,3) ; (x,y): (3,3)
+-Output: 3
+-On possible direction to travel: LDDR
+-(1,3) -> (1,2) -> (2,2) -> (3,2) -> (3,3)
+
+### Example 2: (a,b): (1,1) ; (x,y): (5,5)
+-Output: 7
+-One possible direction to travel: DDRRRRDD
+-(1,1) -> (2,1) -> (3,1) -> (3,2)-> (3,3) -> (3,4) -> (3,5) -> (4,5) -> (5,5)
+
+### Example 3: (a,b): (1,1); (x,y) : (5,1)
+-Output: None
