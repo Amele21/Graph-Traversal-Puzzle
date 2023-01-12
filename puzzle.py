@@ -117,7 +117,7 @@ def find_path_helper(path,find, end_cord):
     return finds
 
 
-#Driver Code
+# Driver Code
 if __name__ == '__main__':
     Board = [['-','-', '-', '-', '-'],
             ['-','-', '#', '-', '-'],
